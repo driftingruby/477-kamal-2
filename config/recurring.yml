@@ -1,0 +1,9 @@
+production:
+  random_title:
+    class: UpdatePostTitleJob
+    queue: background
+    schedule: every 1 seconds
+#   periodic_command:
+#     command: "SoftDeletedRecord.due.delete_all"
+#     priority: 2
+#     schedule: at 5am every day
